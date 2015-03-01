@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="runtheApp"  >
+<target name="runtheApp">
+  <ant antfile="build.xml"/>
+  <exec dir="C:\Users\hiten\Maven\MySelniumCucumberPrj" executable="C:\Users\hiten\Maven\MySelniumCucumberPrj/AntRun.bat" failonerror="true">
+    <arg line=""/>
+  </exec>
+</target>
+</project>
